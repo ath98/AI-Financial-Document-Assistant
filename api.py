@@ -11,7 +11,6 @@ import getpass
 if "OPENAI_API_KEY" not in os.environ:
     os.environ["OPENAI_API_KEY"] = getpass.getpass("Please enter your OpenAI API key: ")
 
-# API KEY= "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"
 def create_vector_store(file_path: str):
     """
     Generates a FAISS vector store for a given file. Supports only specific file types.

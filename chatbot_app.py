@@ -1,5 +1,5 @@
 import streamlit as st
-from test_api import query_vector_store, create_vector_store
+from api import query_vector_store, create_vector_store
 
 # Set the title for the application.
 st.title("AI Financial Document Assistant")
